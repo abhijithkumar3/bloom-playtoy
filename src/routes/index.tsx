@@ -69,7 +69,7 @@ const jsonLd = [
     url: "https://abhijithkumar3.vercel.app/",
     sameAs: [
       "https://abhijithkumar3.vercel.app/",
-      "https://www.linkedin.com/in/abhijithkumar-n/",
+      "https://www.linkedin.com/in/abhijithkumar3/",
       "https://github.com/abhijithkumar3/",
     ],
   },

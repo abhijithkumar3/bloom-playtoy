@@ -45,14 +45,14 @@ export function CreatorInfo() {
               </a>
 
               <a
-                href="https://linkedin.com/in/abhijithkumar-n"
+                href="https://linkedin.com/in/abhijithkumar3"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Abhijithkumar N — LinkedIn profile"
                 className="flex items-center gap-2 hover:text-primary transition-colors p-2 rounded-md hover:bg-white/5"
               >
                 <span className="font-semibold w-24">LinkedIn:</span>
-                <span className="text-foreground/70">linkedin.com/in/abhijithkumar-n</span>
+                <span className="text-foreground/70">linkedin.com/in/abhijithkumar3</span>
               </a>
 
               <a
