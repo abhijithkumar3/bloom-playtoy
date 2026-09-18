@@ -88,6 +88,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content: "Grow a living procedural garden, bend it with cursor wind, and watch it shift through day and night.",
       },
       { property: "og:type", content: "website" },
+      { name: "google-site-verification", content: "FGhl2G-uYdZbOboyWy7SJpO5E5I4XlasbZzsj28d1wo" },
     ],
     links: [
       {
