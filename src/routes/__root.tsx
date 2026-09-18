@@ -75,27 +75,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   head: () => ({
     meta: [
       { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "BLOOM — Living Botanical Canvas" },
-      {
-        name: "description",
-        content: "A full-screen interactive botanical canvas where clicks grow luminous plants and cursor movement becomes wind.",
-      },
-      { name: "author", content: "BLOOM" },
-      { property: "og:title", content: "BLOOM — Living Botanical Canvas" },
-      {
-        property: "og:description",
-        content: "Grow a living procedural garden, bend it with cursor wind, and watch it shift through day and night.",
-      },
-      { property: "og:type", content: "website" },
+      { name: "viewport", content: "width=device-width, initial-scale=1.0" },
       { name: "google-site-verification", content: "FGhl2G-uYdZbOboyWy7SJpO5E5I4XlasbZzsj28d1wo" },
+      { name: "author", content: "Abhijithkumar N" },
+      { name: "robots", content: "index, follow" },
+      // Open Graph
+      { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "BLOOM TOY" },
+      { property: "og:locale", content: "en_US" },
+      // Twitter Card base
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
+      { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.jpg", type: "image/jpeg" },
+      { rel: "canonical", href: "https://bloomtoy.vercel.app/" },
     ],
   }),
   shellComponent: RootShell,
